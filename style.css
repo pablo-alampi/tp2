@@ -1,0 +1,45 @@
+@font-face{
+    font-family : "Burbank Big Condensed Black";
+    src: 
+        local("Burbank-Big-Condensed-Black"),
+        url("/Burbank-Big-Condensed-Black.otf") format("opentype")
+        url("/Burbank-Big-Condensed-Black.woff") format("woff"),
+        url("/Burbank-Big-Condensed-Black.woff") format("woff2");
+}
+
+nav{
+    display: flex;
+    background-color: #18181c;
+    justify-content: space-around;
+   align-items: center;
+   
+
+}
+
+.logo{
+    width: 50px;
+    height: 60px;
+    
+}
+
+h3{
+    font-family: "Burbank Big Condensed Black";
+    font-size: 27px;
+    color: green;
+}
+.link{
+    text-decoration: none;
+    color: #8BAAAE;
+    font-size: 17px;
+    font-family: 'Trebuchet MS',sans-serif;
+  
+}
+header{
+height: 100vh;
+background-image: url(illustration-homepage.jpg);
+background-size: cover;
+}
+
+*{
+margin: auto;
+}
